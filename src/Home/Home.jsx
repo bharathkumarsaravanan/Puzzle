@@ -152,13 +152,6 @@ function Home(){
                 </tbody>
             </table>
             <WinningPercentage value={possiblity} />
-            <ul style={{position: 'absolute', left:'2rem'}}>
-                <li>5</li>
-                <li>6</li>
-                <li>10</li>
-                <li>14</li>
-                <li>15</li>
-            </ul>
             <Button 
                 variant="contained" 
                 size='small'
