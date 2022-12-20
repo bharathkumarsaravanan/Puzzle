@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  border: 0;
+}
+body{
+  padding: 0;
+  border: 0;
+}
+.login{
+  background-color: aliceblue;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  gap: 2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 30px -12px gray;
+  justify-content: center;
+  align-items: center;
+}
+.login input{
+  padding: 15px;
+  border-radius: 1rem;
+  width: 25rem;
+}
+.home{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #263159;
+}
+.puzzles{
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.puzzles tr td{
+  padding: 1.5rem;
+  background-color: #495579;
+  font-weight: 900;
+  font-size: larger;
+  color: aliceblue;
+  min-width: 1.5rem;
+  border-radius: 1rem;
+}
+.portal{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0, .3);
+  z-index: 1000;
+}
+.portal div{
+  background-color: white;
+  position: absolute;
+  padding: 2rem;
+  top: 5rem;
+  left: 45%;
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.chart{
+  position: absolute;
+  left: 32rem;
+  bottom: 0rem;
+}
