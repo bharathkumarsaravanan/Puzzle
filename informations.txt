@@ -1,0 +1,2 @@
+Its the React Js App 
+And I used the Apex Chart js for chart and Material ui for Styling

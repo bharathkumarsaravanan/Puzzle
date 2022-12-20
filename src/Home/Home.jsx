@@ -21,6 +21,7 @@ function Home(){
     if(randomState){
         // numbers.sort(() => Math.random()-0.4)
         // numbers.map((element) => element.sort(() => Math.random()-0.4))                          //we can use this feature for shuffle the numbers
+        setNumbers([[1,2,3,4],[0,5,7,8],[9,6,11,12],[13,10,14,15]])
         setRandomState(false)
     }
     useEffect(() => {
